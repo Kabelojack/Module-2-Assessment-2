@@ -1,7 +1,4 @@
-*{
-    margin: 0;
-    padding: 0;
-}
+
 p{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: aqua;
@@ -30,7 +27,7 @@ h3{
     }
 
 .content p{
-    font-family: fantasy;
+    font-family: sans-serif;
     color: black;
 }  
 #tabs-top{
@@ -46,7 +43,7 @@ h3{
 #tabs-top a{
     float: left;
     display: block;
-    width: 25%;
+    width: 20%;
     height: 35px;
     font-weight: 700;
     color: blueviolet;
@@ -122,12 +119,30 @@ h3{
     
 }
 
-#header{
+#header {
     position: fixed;
     top: 80px;
 }
 #header-item img{
     width: 176px;
+}
+
+.header-title h1{
+    position: fixed;
+    top: 0;
+    margin-top: 0;
+    z-index: 500;
+    color: blueviolet;
+    
+}
+
+.header-title{
+    position: fixed;
+    display: block;
+    width: 100%;
+    height: auto;
+    background-color: rgb(29, 28, 27);
+   
 }
 
 .dis-chem img{
@@ -148,7 +163,7 @@ h3{
 
 }
 .mr-price-info{
-    padding-top: 215px;
+    padding-top: 230px;
 }
 
 .pick-n-pay img{
@@ -175,3 +190,27 @@ h3{
     float: right;
 
 }
+
+#title h2{
+    margin-left: 200px;
+    margin-top: 50px;
+}
+
+#title-content img{
+    height: 350px;
+   
+}
+
+#title-content{
+    margin-top: 210px;
+}
+
+#movie h2{
+    margin-top: 100px
+}
+
+#movie p{
+    color: red;
+}
+
+
